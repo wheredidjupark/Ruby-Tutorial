@@ -1,5 +1,5 @@
 str = gets.chomp;
-count = 0;
+consecutive_BYE = 0;
 
 while (true)
     
@@ -13,8 +13,8 @@ while (true)
     end;
     
     if(str == 'BYE')
-        count = count +1;
-        if(count == 3)
+        consecutive_BYE = consecutive_BYE +1;
+        if(consecutive_BYE == 3)
             break;
         end
     else
