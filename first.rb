@@ -33,7 +33,7 @@ end
 
 check_sign(3);
 
-restaurant_menu = { "Ramen" => 3, "Dal Makhani" => 4, "Coffee" => 2 }
+restaurant_menu = { "Ramen" => 3, "Dal Makhani" => 4, "Coffee" => 2 } #creating hash
 
 restaurant_menu["Ramen"] = 5;
 restaurant_menu.each do |item, price|
@@ -43,3 +43,10 @@ end
 restaurant_menu.each do |item, price|
 puts "#{item}: $#{price}";
 end
+
+var = 'stop';
+puts "Here is var: "+var;
+
+var = var.reverse;
+puts "Here is var now: " + var;
+
